@@ -1,4 +1,3 @@
-
 medical_cause=input("did you have a medical cause Y or N: ")
 
 atten = int(input("enter the attendance of the student: "))
