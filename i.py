@@ -1,16 +1,11 @@
-n=-8
-if n>=0:
-    if n==0:
-        print("zero")
+num=10
+if num>0:
+    if num>100:
+        print("greater than 100")
+    elif num==100:
+        print("equal to 100")
     else:
-        print("positive")
-        if n%2==0:
-            print("even")
-        else:
-            print("odd")
+        print("less than 100")
 else:
-        print("negative")
-        if n%2==0:
-            print("even")
-        else:
-            print("odd")
+    print("Invalid")
+
